@@ -1,19 +1,3 @@
-<script src="https://i5ting.github.io/i5ting_ztree_toc/build/js/jquery-1.10.2.min.js"></script>
-<script src="https://i5ting.github.io/i5ting_ztree_toc/build/js/jquery.ztree.all-3.5.min.js"></script>
-<script src="https://i5ting.github.io/i5ting_ztree_toc/build/js/jquery.ztree_toc.min.js"></script>
-
-<script type="text/javascript">
-<!--
-	$(document).ready(function(){
-		$('#tree').ztree_toc({
-			is_auto_number:true,
-			documment_selector:'.markdown-body'
-		});
-	});
-//-->
-</script>
-
-
 参考：[Installing SageMath 10.3 in Ubuntu](https://sagemanifolds.obspm.fr/install_ubuntu.html)
 
 **注意按照本文安装会在您的（虚拟）机器中编译一整个Python且占用巨大的空间（几个G），如果您是Arch Linux，您可以选择使用pacman包管理器进行安装。**
