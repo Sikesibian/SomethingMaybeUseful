@@ -1,15 +1,16 @@
-<script src="js/jquery-1.4.4.min.js"></script>
-<script src="js/jquery.ztree.core-3.5.js"></script>
-<script src="ztree_toc.js"></script>
+<script src="https://i5ting.github.io/i5ting_ztree_toc/build/js/jquery-1.10.2.min.js"></script>
+<script src="https://i5ting.github.io/i5ting_ztree_toc/build/js/jquery.ztree.all-3.5.min.js"></script>
+<script src="https://i5ting.github.io/i5ting_ztree_toc/build/js/jquery.ztree_toc.min.js"></script>
 
-<link rel="stylesheet" href="zTreeStyle.css" type="text/css">
-<script type="text/javascript" >
-$(document).ready(function(){
-    $('#tree').ztree_toc({
-        is_auto_number: true,
-        // documment_selector: '.first_part'
-    });
-});
+<script type="text/javascript">
+<!--
+	$(document).ready(function(){
+		$('#tree').ztree_toc({
+			is_auto_number:true,
+			documment_selector:'.markdown-body'
+		});
+	});
+//-->
 </script>
 
 
