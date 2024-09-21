@@ -1,3 +1,6 @@
+* TOC
+{:toc}
+
 参考：[Installing SageMath 10.3 in Ubuntu](https://sagemanifolds.obspm.fr/install_ubuntu.html)
 
 **注意按照本文安装会在您的（虚拟）机器中编译一整个Python且占用巨大的空间（几个G），如果您是Arch Linux，您可以选择使用pacman包管理器进行安装。**
