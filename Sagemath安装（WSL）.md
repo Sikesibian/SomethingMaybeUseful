@@ -1,9 +1,14 @@
+<script src="js/jquery-1.4.4.min.js"></script>
+<script src="js/jquery.ztree.core-3.5.js"></script>
+<script src="ztree_toc.js"></script>
 
-<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
----
-html:
-	toc: true
----
+<link rel="stylesheet" href="zTreeStyle.css" type="text/css">
+$(document).ready(function(){
+    $('#tree').ztree_toc({
+        is_auto_number: true,
+        // documment_selector: '.first_part'
+    });
+});
 
 参考：[Installing SageMath 10.3 in Ubuntu](https://sagemanifolds.obspm.fr/install_ubuntu.html)
 
